@@ -1,3 +1,4 @@
 *.swp
 .bundle
+secret.yml
 vendor/bundle
