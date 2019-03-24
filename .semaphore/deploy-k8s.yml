@@ -42,7 +42,7 @@ blocks:
   - name: Tag latest release
     task:
       secrets:
-        - name: markoa-dockerhub
+        - name: marceloaguero-dockerhub
       jobs:
       - name: docker tag latest
         commands:
