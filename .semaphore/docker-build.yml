@@ -48,6 +48,6 @@ blocks:
 # automatically deploys to a staging environment from branches named
 # after a certain pattern.
 # https://docs.semaphoreci.com/article/50-pipeline-yaml#promotions
-#promotions:
-#  - name: Deploy to Kubernetes
-#    pipeline_file: deploy-k8s.yml
+promotions:
+  - name: Deploy to Kubernetes
+    pipeline_file: deploy-k8s.yml
