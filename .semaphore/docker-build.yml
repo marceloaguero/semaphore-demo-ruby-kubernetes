@@ -15,12 +15,12 @@ blocks:
       # For info on creating secrets, see:
       # https://docs.semaphoreci.com/article/66-environment-variables-and-secrets
       secrets:
-        - name: markoa-dockerhub
+        - name: marceloaguero-dockerhub
       jobs:
       - name: Docker build
         commands:
           # Authenticate with Docker Hub
-          # using environment variables in markoa-dockerhub secret:
+          # using environment variables in marceloaguero-dockerhub secret:
           - echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
           - checkout
 
